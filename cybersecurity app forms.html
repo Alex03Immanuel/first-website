@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> application form </title>
+  <script type ="text/javascript">
+    function msg(){
+      alert("Your response has been recorded");
+      var newtab = document.write("<h1>You have been enrolled in the cybersecurity course ! You will be recieving an email very soon ! </h1>");
+    }
+
+  </Script>
+</head>
+<body style="background-image: url('Background-clouds.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;" >
+  <form>
+    <fieldset>
+    <legend> Application Form Cybersecurity </legend>
+    
+<p style="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"> 
+    <label> First name:
+    <input name="firstName"/>
+    </label>
+</p>
+<p style = "font-size:30px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+    <label> Last name:
+    <input name="lastName"/>
+    </label>
+</p>
+<p style ="font-size:30px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;" >
+     Gender:
+    <label><input type="radio" name="gender" value="male"/> Male </label>
+    <label><input type="radio" name="gender" value="female"/> Female </label>
+</p>
+<p style = "font-size:30px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+    <label> Grade <br/>
+    <select name="gradeYear">
+      <option>--none--</option>
+      <option> Year 1 </option>
+      <option> Year 2 </option>
+      <option> Year 3 </option>
+      <option> Year 4 </option>
+    </select>
+    </label>
+</p>
+<p style = "font-size : 25px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+    <label> 
+    <input type="submit" onclick="msg()"> 
+    </label>
+</p>
+</body>
+</html>
+    
